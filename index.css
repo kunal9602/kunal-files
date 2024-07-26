@@ -8,7 +8,6 @@
 .body{
     background-color: aliceblue;
     overflow-x: hidden
-    min-height: 100vh;
 }
 
 
@@ -27,7 +26,7 @@ header{
     width: 100%;
 
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     margin: 10px;
     padding: 30px 100px;
     
@@ -43,7 +42,8 @@ header nav  a {
     color: rgba(40, 147, 81, 0.795);
 
 }
-header nav :hover {
+header nav :hover
+  { margin: 10px;
     padding: 6px 10px ;
     color: ghostwhite;
     background-color:rgba(40, 147, 81, 0.795) ;
@@ -54,12 +54,13 @@ header nav :hover {
     display: flex;
     justify-content: center;
     align-items:center;
-    height: 100vh;
+    height: 65vh;
 }
 #text{
     position: absolute;
-    color: #000;
-    font-size: 5em;
+    color: #f7f7f7;
+    font-size:5em;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0.2);
 
 }
 
